@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="es-mx">
-
+<!-- Hola-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header>
-
+    <header class="header">
+        <nav class="header_menu">
+            <a class="header_menu_link" href="index.html">Home</a>
+            <a class="header_menu_link" href="about.html">Sobre mi</a>
+        </nav>
     </header>
 
     <main class="presentacion">
@@ -25,17 +28,19 @@
             </p>
 
             <div class="presentacion_enlaces">
-                <a class="presentacion_enlaces_link" href="https://www.instagram.com/ge.mauri/">Instagram</a>
-                <a class="presentacion_enlaces_link" href="https://github.com/Mauricio658">Github</a>
+                <h2 class="presentacion_enlaces_subtitulo">Accede a mis redes:</h2>
+                <a class="presentacion_enlaces_link" href="https://www.instagram.com/ge.mauri/"> <img src="assets/instagram.png">Instagram</a>
+                <a class="presentacion_enlaces_link" href="https://github.com/Mauricio658"> <img src="assets/github.png">Github</a>
+                <a class="presentacion_enlaces_link" href="https://www.linkedin.com/in/angel-mauricio-jimenez-cervantes-188012259/"> <img src="assets/linkedin.png">Linkedin</a>
             </div>
             
         </section>
 
-        <img class="imagen" src="imagenes/imagenMia.jpg" alt="imagen de Mauricio Jimenez">
+        <img class="imagen" src="assets/imagenMia.jpg" alt="imagen de Mauricio Jimenez">
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <p>Desarrollado por Mauricio Jimenez</p>
     </footer>
 </body>
 </html>
